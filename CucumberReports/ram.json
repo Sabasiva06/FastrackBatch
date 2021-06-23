@@ -1,0 +1,123 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13542867400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeEachScenario()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "validating login by invalid username and invalid password",
+        "description": "",
+        "id": "validating-login-function-of-facebook-application;validating-login-by-invalid-username-and-invalid-password;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 4149334300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterEachScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 88800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user is on FB page",
+            "match": {
+              "location": "StepDef.user_is_on_FB_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 177194200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user enter incorrect \"hijavaa\" and incorrect \"javawelcomesyou\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"hijavaa\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"javawelcomesyou\"",
+                  "offset": 45
+                }
+              ],
+              "location": "StepDef.user_enter_incorrect_and_incorrect(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 61984200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user is click login button",
+            "match": {
+              "location": "StepDef.user_is_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 94700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user should validate Fb home page is available or not",
+            "match": {
+              "location": "StepDef.user_should_validate_Fb_home_page_is_available_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@f1"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@reg"
+          }
+        ]
+      }
+    ],
+    "name": "Validating login function of facebook application",
+    "description": "",
+    "id": "validating-login-function-of-facebook-application",
+    "keyword": "Feature",
+    "uri": "src/test/resources/LoginPage.feature",
+    "tags": [
+      {
+        "name": "@f1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
