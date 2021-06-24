@@ -21,12 +21,17 @@ public class TestRunner {
 	@AfterClass
 	public static void afterClass() {
 		JVMReport.generateJVMReport("D:\\RamCucumberClass\\CucumberReports\\ram.json");
+		System.out.println("Json Report");
+		System.out.println("Html Report");
+		System.out.println("XML Report");
+		System.out.println("Cucumber JVM Repot");
 		System.out.println("A");
 		System.out.println("B");
 		System.out.println("C");
 		System.out.println("D");
 		System.out.println("E");
 		System.out.println("F");
+
 	}
 
 }
